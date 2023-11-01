@@ -3,7 +3,7 @@ sequenceDiagram
 autonumber
 
 participant LE as Legal Entity
-participant D as DHA
+participant D as DHS
 participant V as vLEI Update Verification Service
 participant G as GLEIF Data API Backend
 participant W as GLEIF Website

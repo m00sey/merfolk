@@ -21,7 +21,4 @@ V->>G: Succes
 G->>G: Update GLEIF dataset
 G->>V: Success
 V->>LE: Issued chained Verifiable vLEI Data Record
-opt unsure
-V->>G: Create W3C version of vLEI data
-end
 ```

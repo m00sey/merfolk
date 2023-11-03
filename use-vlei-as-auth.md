@@ -3,7 +3,7 @@
 sequenceDiagram
 autonumber
 participant LE as Legal Entity
-participant V as Deployed vLEI Verification Service
+participant V as vLEI Verification Service
 links V: {"Verifier": "https://github.com/GLEIF-IT/reg-poc-verifier/"}
 participant D as DLT
 participant G as GLEIF Data API Backend

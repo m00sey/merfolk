@@ -4,13 +4,15 @@ autonumber
 
 participant LE as Legal Entity
 participant V as vLEI Verification Service
+links V: {"Verifier": "https://github.com/GLEIF-IT/reg-poc-verifier/"}
 participant D as DID Registry Partner
 participant G as GLEIF Data API Backend
 Note over LE,G: Using a did as example
 
 LE->>LE: Prove control of did
 activate LE
-Note right of LE: Create Nonce
+Note over LE: Prove control over didd
+Note over LE: Create Nonce
 Note right of LE: Sign nonce with did private key
 Note right of LE: create bespoke ACDC with signed nonce embedded
 Note right of LE: Chain nonce-ACDC off previously issued LE vLEI
